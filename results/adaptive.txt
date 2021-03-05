@@ -1,0 +1,107 @@
+NUMERAL SYSTEM ADAPTIVE FREQUENCY TABLE (rate=3) TEST:
+
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     0.0000
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00     1024        0 0.250000 0.000000
+ 01     1024     1024 0.250000 0.250000
+ 02     1024     2048 0.250000 0.500000
+ 03     1024     3072 0.250000 0.750000
+
+===> STEP#1 (symbol - 01):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.9685
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00      896        0 0.218750 0.000000
+ 01     1408      896 0.343750 0.218750
+ 02      896     2304 0.218750 0.562500
+ 03      896     3200 0.218750 0.781250
+
+
+===> STEP#2 (symbol - 03):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.9597
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00      784        0 0.191406 0.000000
+ 01     1232      784 0.300781 0.191406
+ 02      784     2016 0.191406 0.492188
+ 03     1296     2800 0.316406 0.683594
+
+
+===> STEP#3 (symbol - 00):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.9703
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00     1198        0 0.292480 0.000000
+ 01     1078     1198 0.263184 0.292480
+ 02      686     2276 0.167480 0.555664
+ 03     1134     2962 0.276855 0.723145
+
+
+===> STEP#4 (symbol - 01):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.9351
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00     1048        0 0.255859 0.000000
+ 01     1455     1048 0.355225 0.255859
+ 02      600     2503 0.146484 0.611084
+ 03      993     3103 0.242432 0.757568
+
+
+===> STEP#5 (symbol - 01):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.8600
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00      917        0 0.223877 0.000000
+ 01     1785      917 0.435791 0.223877
+ 02      525     2702 0.128174 0.659668
+ 03      869     3227 0.212158 0.787842
+
+
+===> STEP#6 (symbol - 02):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.9345
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00      802        0 0.195801 0.000000
+ 01     1562      802 0.381348 0.195801
+ 02      971     2364 0.237061 0.577148
+ 03      761     3335 0.185791 0.814209
+
+
+===> STEP#7 (symbol - 00):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.9452
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00     1213        0 0.296143 0.000000
+ 01     1367     1213 0.333740 0.296143
+ 02      850     2580 0.207520 0.629883
+ 03      666     3430 0.162598 0.837402
+
+
+===> STEP#8 (symbol - 01):
+Total symbol count:        0
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.8783
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00     1061        0 0.259033 0.000000
+ 01     1708     1061 0.416992 0.259033
+ 02      744     2769 0.181641 0.676025
+ 03      583     3513 0.142334 0.857666
+
+Total symbol count:        8
+Numeral system size:    4096
+Bits/symbol (Shannon):     1.8783
+ S    f(S)     C(S)     p(S)    cdf(S)
+ 00     1061        0 0.259033 0.000000
+ 01     1708     1061 0.416992 0.259033
+ 02      744     2769 0.181641 0.676025
+ 03      583     3513 0.142334 0.857666
+

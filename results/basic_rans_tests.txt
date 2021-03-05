@@ -1,0 +1,95 @@
+rANS TESTS:
+
+==========================
+=== rANS TEST (SL = 1) ===
+==========================
+
+Data consistency check after decoding: OK.
+
+ENCODER STATS FOR 'rANS':
+ - symbol length:             1 bits
+ - symbol count:          16384
+ - header length:            32 bits
+
+ - decoded length:        16384 bits
+ - encoded length:        16288 bits    (w/o header: 16256 bits)
+ - compression_rate:         99.41%     (w/o header: 99.22%)
+
+ - bits/symbol (theory):      0.9907
+ - bits/symbol (actual):      0.9941    (w/o header: 0.9922)
+ - redundance:                0.0035    (w/o header: 0.0015)
+
+ - encoding time:       1110171 ns
+ - decoding time:        897459 ns
+
+
+==========================
+=== rANS TEST (SL = 2) ===
+==========================
+
+Data consistency check after decoding: OK.
+
+ENCODER STATS FOR 'rANS':
+ - symbol length:             2 bits
+ - symbol count:           8192
+ - header length:            64 bits
+
+ - decoded length:        16384 bits
+ - encoded length:        16128 bits    (w/o header: 16064 bits)
+ - compression_rate:         98.44%     (w/o header: 98.05%)
+
+ - bits/symbol (theory):      1.9590
+ - bits/symbol (actual):      1.9688    (w/o header: 1.9609)
+ - redundance:                0.0097    (w/o header: 0.0019)
+
+ - encoding time:        721520 ns
+ - decoding time:        512799 ns
+
+
+==========================
+=== rANS TEST (SL = 4) ===
+==========================
+
+Data consistency check after decoding: OK.
+
+ENCODER STATS FOR 'rANS':
+ - symbol length:             4 bits
+ - symbol count:           4096
+ - header length:           256 bits
+
+ - decoded length:        16384 bits
+ - encoded length:        14192 bits    (w/o header: 13936 bits)
+ - compression_rate:         86.62%     (w/o header: 85.06%)
+
+ - bits/symbol (theory):      3.3981
+ - bits/symbol (actual):      3.4648    (w/o header: 3.4023)
+ - redundance:                0.0668    (w/o header: 0.0043)
+
+ - encoding time:        334636 ns
+ - decoding time:        361873 ns
+
+
+==========================
+=== rANS TEST (SL = 8) ===
+==========================
+
+Data consistency check after decoding: OK.
+
+ENCODER STATS FOR 'rANS':
+ - symbol length:             8 bits
+ - symbol count:           2048
+ - header length:          4096 bits
+
+ - decoded length:        16384 bits
+ - encoded length:        13488 bits    (w/o header: 9392 bits)
+ - compression_rate:         82.32%     (w/o header: 57.32%)
+
+ - bits/symbol (theory):      4.5813
+ - bits/symbol (actual):      6.5859    (w/o header: 4.5859)
+ - redundance:                2.0046    (w/o header: 0.0046)
+
+ - encoding time:        198423 ns
+ - decoding time:        951576 ns
+
+
+

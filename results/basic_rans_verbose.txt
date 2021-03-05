@@ -1,0 +1,306 @@
+rANS TESTS:
+
+==========================
+=== rANS TEST (SL = 1) ===
+==========================
+
+[ENC] -> #s=    1: symbol read: 01
+[ENC] 						 x: 0 -> 2240
+[ENC] -> #s=    2: symbol read: 01
+[ENC] 						 x: 2240 -> 6720
+[ENC] -> #s=    3: symbol read: 00
+[ENC] 						 x: 6720 -> 12288
+[ENC] -> #s=    4: symbol read: 00
+[ENC] 						 x: 12288 -> 21568
+[ENC] -> #s=    5: symbol read: 00
+[ENC] 						 x: 21568 -> 38272
+[ENC] -> #s=    6: symbol read: 00
+[ENC] 						 x: 38272 -> 69824
+[ENC] -> #s=    7: symbol read: 01
+[ENC] 						 x: 69824 -> 154944
+[ENC] -> #s=    8: symbol read: 00
+[ENC] 						 x: 154944 -> 283008
+[ENC] -> #s=    9: symbol read: 00
+[ENC] 						 x: 283008 -> 516864
+[ENC] -> #s=   10: symbol read: 00
+[ENC] 						 x: 516864 -> 943744
+[ENC] -> #s=   11: symbol read: 00
+[ENC] 						 x: 943744 -> 1725120
+[ENC] -> #s=   12: symbol read: 01
+[ENC] 						 x: 1725120 -> 3808320
+[ENC] -> #s=   13: symbol read: 00
+[ENC] 						 x: 3808320 -> 6963520
+[ENC] -> #s=   14: symbol read: 01
+[ENC] 						 x: 6963520 -> 15368000
+[ENC] -> #s=   15: symbol read: 01
+[ENC] 						 x: 15368000 -> 33917440
+[ENC] -> #s=   16: symbol read: 00
+[ENC] 						 x: 33917440 -> 62019136
+[ENC] -> #s=   17: symbol read: 01
+[ENC] 						 x: 62019136 -> 136870976
+[ENC] -> #s=   18: symbol read: 00
+[ENC] 						 x: 136870976 -> 250278144
+[ENC] -> #s=   19: symbol read: 01
+[ENC] 						 x: 250278144 -> 552339904
+[ENC] -> #s=   20: symbol read: 00
+[ENC] 						 x: 552339904 -> 1009992384
+[ENC] -> #s=   21: symbol read: 00
+[ENC] 						 x: 1009992384 -> 1846842368
+[ENC] -> #s=   22: symbol read: 01
+[ENC] 						 x: 1846842368 -> 4075790208
+[ENC] -> #s=   23: symbol read: 01
+[ENC] <- #w=    1 - word written: 9f80
+[ENC] 						 x: 4075790208 -> 62191
+[ENC] 						 x: 62191 -> 138351
+[ENC] -> #s=   24: symbol read: 00
+[ENC] 						 x: 138351 -> 251567
+[ENC] -> #s=   25: symbol read: 01
+[ENC] 						 x: 251567 -> 556207
+[ENC] -> #s=   26: symbol read: 01
+[ENC] 						 x: 556207 -> 1228207
+[ENC] -> #s=   27: symbol read: 00
+[ENC] 						 x: 1228207 -> 2245295
+[ENC] -> #s=   28: symbol read: 00
+[ENC] 						 x: 2245295 -> 4105007
+[ENC] -> #s=   29: symbol read: 00
+[ENC] 						 x: 4105007 -> 7505199
+[ENC] -> #s=   30: symbol read: 01
+[ENC] 						 x: 7505199 -> 16563759
+[ENC] -> #s=   31: symbol read: 01
+[ENC] 						 x: 16563759 -> 36555759
+[ENC] -> #s=   32: symbol read: 00
+[ENC] 						 x: 36555759 -> 66843823
+[ENC] -> #s=   33: symbol read: 01
+[ENC] 						 x: 66843823 -> 147517423
+[ENC] -> #s=   34: symbol read: 01
+[ENC] 						 x: 147517423 -> 325557103
+[ENC] -> #s=   35: symbol read: 00
+[ENC] 						 x: 325557103 -> 595302575
+[ENC] -> #s=   36: symbol read: 01
+[ENC] 						 x: 595302575 -> 1313771375
+[ENC] -> #s=   37: symbol read: 00
+[ENC] 						 x: 1313771375 -> 2402324655
+[ENC] -> #s=   38: symbol read: 01
+[ENC] <- #w=    2 - word written: 90af
+[ENC] 						 x: 2402324655 -> 36656
+[ENC] 						 x: 36656 -> 81456
+[ENC] -> #s=   39: symbol read: 01
+[ENC] 						 x: 81456 -> 180016
+[ENC] -> #s=   40: symbol read: 00
+[ENC] 						 x: 180016 -> 328496
+[ENC] -> #s=   41: symbol read: 01
+[ENC] 						 x: 328496 -> 724976
+[ENC] -> #s=   42: symbol read: 01
+[ENC] 						 x: 724976 -> 1600816
+[ENC] -> #s=   43: symbol read: 00
+[ENC] 						 x: 1600816 -> 2926000
+[ENC] -> #s=   44: symbol read: 00
+[ENC] 						 x: 2926000 -> 5349936
+[ENC] -> #s=   45: symbol read: 01
+[ENC] 						 x: 5349936 -> 11807856
+[ENC] -> #s=   46: symbol read: 01
+[ENC] 						 x: 11807856 -> 26058736
+[ENC] -> #s=   47: symbol read: 01
+[ENC] 						 x: 26058736 -> 57510576
+[ENC] -> #s=   48: symbol read: 00
+[ENC] 						 x: 57510576 -> 105161520
+[ENC] -> #s=   49: symbol read: 00
+[ENC] 						 x: 105161520 -> 192295152
+[ENC] -> #s=   50: symbol read: 01
+[ENC] 						 x: 192295152 -> 424377072
+[ENC] -> #s=   51: symbol read: 00
+[ENC] 						 x: 424377072 -> 776003696
+[ENC] -> #s=   52: symbol read: 01
+[ENC] 						 x: 776003696 -> 1712561136
+[ENC] -> #s=   53: symbol read: 01
+[ENC] 						 x: 1712561136 -> 3779447216
+[ENC] -> #s=   54: symbol read: 01
+[ENC] <- #w=    3 - word written: c9b0
+[ENC] 						 x: 3779447216 -> 57669
+[ENC] 						 x: 57669 -> 129349
+[ENC] -> #s=   55: symbol read: 00
+[ENC] 						 x: 129349 -> 235141
+[ENC] -> #s=   56: symbol read: 00
+[ENC] 						 x: 235141 -> 428165
+[ENC] -> #s=   57: symbol read: 00
+[ENC] 						 x: 428165 -> 782661
+[ENC] -> #s=   58: symbol read: 00
+[ENC] 						 x: 782661 -> 1430405
+[ENC] -> #s=   59: symbol read: 00
+[ENC] 						 x: 1430405 -> 2614533
+[ENC] -> #s=   60: symbol read: 00
+[ENC] 						 x: 2614533 -> 4780485
+[ENC] -> #s=   61: symbol read: 00
+[ENC] 						 x: 4780485 -> 8741189
+[ENC] -> #s=   62: symbol read: 01
+[ENC] 						 x: 8741189 -> 19291589
+[ENC] -> #s=   63: symbol read: 00
+[ENC] 						 x: 19291589 -> 35275461
+[ENC] -> #s=   64: symbol read: 00
+[ENC] 						 x: 35275461 -> 64501893
+[ENC]    64: -> 4. word written: 3885
+[ENC] 						 x: 64501893 -> 984
+[ENC]    64: -> 5. word written: 03d8
+[ENC] 						 x: 984 -> 0
+[ENC] Encoding completed. Encoded 64 symbols in 10 bytes.
+
+[DEC] -> #w=    1 - word read: 03d8
+[DEC] 						 x: 0 -> 984
+[DEC] -> #w=    2 - word read: 3885
+[DEC] 						 x: 984 -> 64501893
+[DEC] <- #s=    1 - symbol written: 00
+[DEC] 						 x: 64501893 -> 35275461
+[DEC] <- #s=    2 - symbol written: 00
+[DEC] 						 x: 35275461 -> 19291589
+[DEC] <- #s=    3 - symbol written: 01
+[DEC] 						 x: 19291589 -> 8741189
+[DEC] <- #s=    4 - symbol written: 00
+[DEC] 						 x: 8741189 -> 4780485
+[DEC] <- #s=    5 - symbol written: 00
+[DEC] 						 x: 4780485 -> 2614533
+[DEC] <- #s=    6 - symbol written: 00
+[DEC] 						 x: 2614533 -> 1430405
+[DEC] <- #s=    7 - symbol written: 00
+[DEC] 						 x: 1430405 -> 782661
+[DEC] <- #s=    8 - symbol written: 00
+[DEC] 						 x: 782661 -> 428165
+[DEC] <- #s=    9 - symbol written: 00
+[DEC] 						 x: 428165 -> 235141
+[DEC] <- #s=   10 - symbol written: 00
+[DEC] 						 x: 235141 -> 129349
+[DEC] <- #s=   11 - symbol written: 01
+[DEC] 						 x: 129349 -> 57669
+[DEC] -> #w=    3 - word read: c9b0
+[DEC] 						 x: 57669 -> 3779447216
+[DEC] <- #s=   12 - symbol written: 01
+[DEC] 						 x: 3779447216 -> 1712561136
+[DEC] <- #s=   13 - symbol written: 01
+[DEC] 						 x: 1712561136 -> 776003696
+[DEC] <- #s=   14 - symbol written: 00
+[DEC] 						 x: 776003696 -> 424377072
+[DEC] <- #s=   15 - symbol written: 01
+[DEC] 						 x: 424377072 -> 192295152
+[DEC] <- #s=   16 - symbol written: 00
+[DEC] 						 x: 192295152 -> 105161520
+[DEC] <- #s=   17 - symbol written: 00
+[DEC] 						 x: 105161520 -> 57510576
+[DEC] <- #s=   18 - symbol written: 01
+[DEC] 						 x: 57510576 -> 26058736
+[DEC] <- #s=   19 - symbol written: 01
+[DEC] 						 x: 26058736 -> 11807856
+[DEC] <- #s=   20 - symbol written: 01
+[DEC] 						 x: 11807856 -> 5349936
+[DEC] <- #s=   21 - symbol written: 00
+[DEC] 						 x: 5349936 -> 2926000
+[DEC] <- #s=   22 - symbol written: 00
+[DEC] 						 x: 2926000 -> 1600816
+[DEC] <- #s=   23 - symbol written: 01
+[DEC] 						 x: 1600816 -> 724976
+[DEC] <- #s=   24 - symbol written: 01
+[DEC] 						 x: 724976 -> 328496
+[DEC] <- #s=   25 - symbol written: 00
+[DEC] 						 x: 328496 -> 180016
+[DEC] <- #s=   26 - symbol written: 01
+[DEC] 						 x: 180016 -> 81456
+[DEC] <- #s=   27 - symbol written: 01
+[DEC] 						 x: 81456 -> 36656
+[DEC] -> #w=    4 - word read: 90af
+[DEC] 						 x: 36656 -> 2402324655
+[DEC] <- #s=   28 - symbol written: 00
+[DEC] 						 x: 2402324655 -> 1313771375
+[DEC] <- #s=   29 - symbol written: 01
+[DEC] 						 x: 1313771375 -> 595302575
+[DEC] <- #s=   30 - symbol written: 00
+[DEC] 						 x: 595302575 -> 325557103
+[DEC] <- #s=   31 - symbol written: 01
+[DEC] 						 x: 325557103 -> 147517423
+[DEC] <- #s=   32 - symbol written: 01
+[DEC] 						 x: 147517423 -> 66843823
+[DEC] <- #s=   33 - symbol written: 00
+[DEC] 						 x: 66843823 -> 36555759
+[DEC] <- #s=   34 - symbol written: 01
+[DEC] 						 x: 36555759 -> 16563759
+[DEC] <- #s=   35 - symbol written: 01
+[DEC] 						 x: 16563759 -> 7505199
+[DEC] <- #s=   36 - symbol written: 00
+[DEC] 						 x: 7505199 -> 4105007
+[DEC] <- #s=   37 - symbol written: 00
+[DEC] 						 x: 4105007 -> 2245295
+[DEC] <- #s=   38 - symbol written: 00
+[DEC] 						 x: 2245295 -> 1228207
+[DEC] <- #s=   39 - symbol written: 01
+[DEC] 						 x: 1228207 -> 556207
+[DEC] <- #s=   40 - symbol written: 01
+[DEC] 						 x: 556207 -> 251567
+[DEC] <- #s=   41 - symbol written: 00
+[DEC] 						 x: 251567 -> 138351
+[DEC] <- #s=   42 - symbol written: 01
+[DEC] 						 x: 138351 -> 62191
+[DEC] -> #w=    5 - word read: 9f80
+[DEC] 						 x: 62191 -> 4075790208
+[DEC] <- #s=   43 - symbol written: 01
+[DEC] 						 x: 4075790208 -> 1846842368
+[DEC] <- #s=   44 - symbol written: 00
+[DEC] 						 x: 1846842368 -> 1009992384
+[DEC] <- #s=   45 - symbol written: 00
+[DEC] 						 x: 1009992384 -> 552339904
+[DEC] <- #s=   46 - symbol written: 01
+[DEC] 						 x: 552339904 -> 250278144
+[DEC] <- #s=   47 - symbol written: 00
+[DEC] 						 x: 250278144 -> 136870976
+[DEC] <- #s=   48 - symbol written: 01
+[DEC] 						 x: 136870976 -> 62019136
+[DEC] <- #s=   49 - symbol written: 00
+[DEC] 						 x: 62019136 -> 33917440
+[DEC] <- #s=   50 - symbol written: 01
+[DEC] 						 x: 33917440 -> 15368000
+[DEC] <- #s=   51 - symbol written: 01
+[DEC] 						 x: 15368000 -> 6963520
+[DEC] <- #s=   52 - symbol written: 00
+[DEC] 						 x: 6963520 -> 3808320
+[DEC] <- #s=   53 - symbol written: 01
+[DEC] 						 x: 3808320 -> 1725120
+[DEC] <- #s=   54 - symbol written: 00
+[DEC] 						 x: 1725120 -> 943744
+[DEC] <- #s=   55 - symbol written: 00
+[DEC] 						 x: 943744 -> 516864
+[DEC] <- #s=   56 - symbol written: 00
+[DEC] 						 x: 516864 -> 283008
+[DEC] <- #s=   57 - symbol written: 00
+[DEC] 						 x: 283008 -> 154944
+[DEC] <- #s=   58 - symbol written: 01
+[DEC] 						 x: 154944 -> 69824
+[DEC] <- #s=   59 - symbol written: 00
+[DEC] 						 x: 69824 -> 38272
+[DEC] <- #s=   60 - symbol written: 00
+[DEC] 						 x: 38272 -> 21568
+[DEC] <- #s=   61 - symbol written: 00
+[DEC] 						 x: 21568 -> 12288
+[DEC] <- #s=   62 - symbol written: 00
+[DEC] 						 x: 12288 -> 6720
+[DEC] <- #s=   63 - symbol written: 01
+[DEC] 						 x: 6720 -> 2240
+[DEC] <- #s=   64 - symbol written: 01
+[DEC] 						 x: 2240 -> 0
+[DEC] Decoding completed. Decoded 64 symbols from 10 bytes.
+
+Data consistency check after decoding: OK.
+
+ENCODER STATS FOR 'rANS':
+ - symbol length:             1 bits
+ - symbol count:             64
+ - header length:            32 bits
+
+ - decoded length:           64 bits
+ - encoded length:          112 bits    (w/o header: 80 bits)
+ - compression_rate:        175.00%     (w/o header: 125.00%)
+
+ - bits/symbol (theory):      0.9937
+ - bits/symbol (actual):      1.7500    (w/o header: 1.2500)
+ - redundance:                0.7563    (w/o header: 0.2563)
+
+ - encoding time:        116960 ns
+ - decoding time:         82958 ns
+
+
+

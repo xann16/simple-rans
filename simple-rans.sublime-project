@@ -1,0 +1,92 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "Standard Build",
+			"shell_cmd": "cmake --build .",
+			"syntax": "Packages/CMakeBuilder/Syntax/Ninja.sublime-syntax",
+			"working_dir": "${project_path}/build",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "cmake --build . --target clean"
+				}
+			]
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.swp",
+				"*.sublime-workspace"
+			],
+			"folder_exclude_patterns":
+			[
+				"build",
+				"Testing"
+			],
+			"path": "."
+		},
+		{
+			"path": "build",
+			"name": "cmake-cache",
+			"file_include_patterns":
+			[
+				"CMakeCache.txt"
+			]
+		}
+	],
+	"settings":
+	{
+		"ClangFormat.format_on_save": true,
+		"ClangFormat.style": "File",
+		"EasyClangComplete":
+		{
+			"cpp_flags":
+			[
+				"-std=c++17"
+			],
+			"show_errors": false
+		},
+		"SublimeLinter.linters.annotations.disable": false,
+		"SublimeLinter.linters.annotations.errors":
+		[
+			"!!!FATAL!!!"
+		],
+		"SublimeLinter.linters.annotations.warnings":
+		[
+			"TODO",
+			"LEGACY",
+			"FIXME",
+			"FIX"
+		],
+		"SublimeLinter.linters.cppcheck.disable": true,
+		"SublimeLinter.linters.cppcheck.enable": "all",
+		"SublimeLinter.linters.cppcheck.std": "c++14",
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+			"command_line_overrides":
+			{
+			},
+			"generator": "Ninja"
+		},
+		"compile_commands": "${project_path}/build",
+		"default_line_ending": "unix",
+		"ensure_newline_at_eof_on_save": true,
+		"jsoncomma_on_save": true,
+		"rulers":
+		[
+			80,
+			120
+		],
+		"save_on_focus_lost": true,
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
+		"trim_trailing_white_space_on_save": true
+	}
+}
